@@ -1,0 +1,14 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+server/.env
+ml/.env
+ml/__pycache__/
+ml/*.pyc
+ml/venv/
+.DS_Store
+build/
+client/build/
+*.egg-info/
+dist/
+.env
