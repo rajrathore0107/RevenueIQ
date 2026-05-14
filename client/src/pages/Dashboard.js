@@ -19,7 +19,11 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const user = JSON.parse(localStorage.getItem('user') || '{}');
 
-  useEffect(() => { loadSales(); loadAlerts(); }, []);
+  useEffect(() => { 
+  loadSales(); 
+  loadAlerts(); 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
 
   async function loadSales() {
     try {
