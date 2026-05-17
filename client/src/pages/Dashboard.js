@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area, ScatterChart, Scatter } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
 import { getSales, addSale, deleteSale, uploadCSV, getForecast, getAnomalies, getAlerts, getInsights, getAIExplanation } from '../api';
 
 const NAV_ITEMS = ['Overview', 'Sales Data', 'Forecast', 'Anomalies', 'Insights', 'Alerts'];
