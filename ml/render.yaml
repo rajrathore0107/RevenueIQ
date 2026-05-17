@@ -1,10 +1,9 @@
 services:
   - type: web
     name: revenueiq-ml
-    env: python
+    env: docker
     rootDir: ml
-    buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements.txt && python -m cmdstanpy.install_cmdstan
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    dockerfilePath: ./Dockerfile
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.9
+      - key: PORT
+        value: 8000
