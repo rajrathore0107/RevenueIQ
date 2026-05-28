@@ -10,7 +10,7 @@ RevenueIQ helps small business owners predict future revenue, detect anomalies, 
 
 | Service | URL | Platform |
 |---------|-----|----------|
-| Frontend | https://revenueiq.vercel.app | Vercel |
+| Frontend | https://revenue-iq-eta.vercel.app/ | Vercel |
 | Backend API | https://revenueiq-api.onrender.com | Render |
 | ML Service | https://revenueiq-ml.onrender.com | Render |
 
